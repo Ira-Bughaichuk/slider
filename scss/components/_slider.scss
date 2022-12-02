@@ -24,7 +24,20 @@
         color: #000000;
         
         font-family: 'Inter';
-        font-style: normal;      
+        font-style: normal;  
+        
+        // &.swiper-slide-active {
+            //   .team__desc p {
+            //     transform: translateY(0);
+            //     opacity: 1;
+            //   }
+            // }
+            // &.is-play {
+            //   .team__desc p {
+            //     transform: translateY(0);
+            //     opacity: 1;
+            //   }
+            // }
     }
 
     &__image{
@@ -61,27 +74,32 @@
         max-width: 886px;
 
         margin: 0 auto;
+
+        // p {
+            //   transition: ease-in-out 0.4s;
+            //   opacity: 0;
+            //   transform: translateY(100%);
+            // }
        
     }
 
-    &__pagination{
-
-        &.swiper-pagination{
+    &__pagination {
+        &.swiper-pagination {
             bottom: 0;
         }
-    }
-    .swiper-wrapper .swiper-slide {
-        margin-right: 0;
-    }
-    .swiper-pagination-bullet{
-        width: 6px;
-        height: 6px;
-        background-color: #939EAC;
-        display: inline-flex;
-        gap: 8px;
-        
-        &-active{
-            background-color: #06071B;
+             
+    
+        .swiper-pagination-bullet {
+            background: #939eac;
+            width: 6px;
+            height: 6px;
+            display: inline-flex;
+            gap: 8px;
+                        
+    
+            &.swiper-pagination-bullet-active {
+                background: #06071b;
+            }
         }
     }
 }

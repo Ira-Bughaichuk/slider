@@ -358,18 +358,15 @@ img {
 .section-slider__pagination.swiper-pagination {
   bottom: 0;
 }
-.section-slider .swiper-wrapper .swiper-slide {
-  margin-right: 0;
-}
-.section-slider .swiper-pagination-bullet {
+.section-slider__pagination .swiper-pagination-bullet {
+  background: #939eac;
   width: 6px;
   height: 6px;
-  background-color: #939EAC;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   gap: 8px;
 }
-.section-slider .swiper-pagination-bullet-active {
-  background-color: #06071B;
+.section-slider__pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #06071b;
 }/*# sourceMappingURL=main.css.map */
